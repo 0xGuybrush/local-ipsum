@@ -2,7 +2,7 @@
 
 A Python web-based app that will strip the text content from a HTML page & replace with *lorem ipsum* text in a given language. Will also increase text length by ~30% (as a crude mesaure of translated languages often increasing in volume; will not work correctly for CJK languages, as no word boundary).
 
-Developed just for fun, has reasonable success though struggles with some JavaScript injected content.
+Developed just for fun, has reasonable success though struggles with some JavaScript injected content. **Disclaimer: ** Text in other languages was collected randomly on the web (aimed for CC sources, though some are from Google search results). As I (unfortunately) don't speak these languages, I'm unaware of the content — it's likely to come out as anything other than gibberish, given the way that the content is replaced, but no offense is intended for any meaning gleaned from these if you do speak Norwegian/Korean, etc.
 
 ##Potential uses
 
