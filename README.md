@@ -1,6 +1,6 @@
 #Local Ipsum
 
-A Python web-based app that will strip the text content from a HTML page & replace with *lorem ipsum* text in a given language. Will also increase text length by ~30% (as a crude mesaure of translated languages often increasing in volume).
+A Python web-based app that will strip the text content from a HTML page & replace with *lorem ipsum* text in a given language. Will also increase text length by ~30% (as a crude mesaure of translated languages often increasing in volume; will not work correctly for CJK languages, as no word boundary).
 
 Developed just for fun, has reasonable success though struggles with some JavaScript injected content.
 
@@ -9,7 +9,7 @@ Developed just for fun, has reasonable success though struggles with some JavaSc
 Allows designers, developers and testers a quick way to view potential impact of localisation being retro-fitted onto a page, especially into non-Latin scripts. For example, it could be used to highlight:
 
 + Text currently served as images
-+ Right-to-left impact
++ Right-to-left impact (It will add a right-to-left attribute to the HTML node for Hebrew/Arabic, though won't modify CSS floats, image placements, etc.)
 + Overflow caused by longer text content
 + Text being injected via JavaScript
 + Font-size/colour contrast issues for different scripts
